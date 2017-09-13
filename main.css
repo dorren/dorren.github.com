@@ -1,0 +1,30 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #3498DB;
+}
+
+#main {
+  margin: 20px;
+}
+section#react{
+}
+section#react .screenshots {
+  display: flex;
+  align-items: center;
+}
+section#react .screenshots img{
+  width: 230px;
+  margin: 10px 20px;
+}
