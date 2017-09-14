@@ -18,13 +18,15 @@ a {
 #main {
   margin: 20px;
 }
-section#react{
+section{
+  margin-top: 2em;
+  clear: both;
 }
 section#react .screenshots {
-  display: flex;
-  align-items: center;
+
 }
 section#react .screenshots img{
   width: 230px;
   margin: 10px 20px;
+  float: left;
 }
