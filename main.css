@@ -10,6 +10,10 @@ body {
   font-family: sans-serif;
 }
 
+h2 {
+  margin: 0;
+}
+
 a {
   text-decoration: none;
   color: #3498DB;
@@ -19,13 +23,16 @@ a {
   margin: 20px;
 }
 section{
-  margin-top: 2em;
+  margin-top: 3em;
   clear: both;
 }
-section#react .screenshots {
+section h2 {
+  margin-bottom: 0.5em;
+}
+section .screenshots {
 
 }
-section#react .screenshots img{
+section .screenshots img{
   width: 230px;
   margin: 10px 20px;
   float: left;
